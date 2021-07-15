@@ -93,7 +93,7 @@ class App extends React.Component {
           this.setState({queryHistoryValue : 1});
         }
         else {
-          this.setState({queryHistoryValue : this.state.queryFromCurrency + ': 1, ' + this.state.queryToCurrency + ': ' + result.quotes[Object.keys(result.quotes)[1]] / result.quotes[Object.keys(result.quotes)[0]]});
+          this.setState({queryHistoryValue : this.state.queryFromCurrency + ': 1, ' + this.state.queryToCurrency + ': ' + result.quotes[Object.keys(result.quotes)[0]] / result.quotes[Object.keys(result.quotes)[1]]});
         }
         
       });
