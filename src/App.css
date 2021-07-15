@@ -1,0 +1,33 @@
+body {
+  vertical-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: -5px;
+  margin-left: -5px;
+}
+
+label {
+  text-align: center;
+  margin-right: 50px;
+  font-size: 1.2rem;
+  color: red;
+}
+
+.dateItem {
+  right: 10 px;
+}
+
+.chart {
+  
+}

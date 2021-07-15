@@ -1,0 +1,21 @@
+.navbar {
+  padding: 20px;
+  display: inline;
+  align-items: center;
+  max-width: 600px;
+  border-bottom: 1px solid #f2f2f2;
+  margin-left: 70px;
+}
+
+Link {
+  margin-left: 15px;
+}
+
+.navbar .Links {
+  margin-left: 10 px;
+  display: inline;
+}
+
+.navbar Link:hover {
+  color: #f2f2f2;
+}
