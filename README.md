@@ -1,3 +1,6 @@
+# Please note
+Please run npm install. And then run npm start to run the code. The project should be running in the port 3000 (localhost:3000).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
